@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.938rem;
+}
+
+:root {
+    --orange: hsl(35, 77%, 62%);
+    --red: hsl(5, 85%, 63%);
+    --white: hsl(36, 100%, 99%);
+    --grayBlue: hsl(233, 8%, 79%);
+    --dgrayBlue: hsl(236, 13%, 42%);
+    --vdBlue: hsl(240, 100%, 5%);
+}
+
+a {
+    text-decoration: none
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: var(--white);
+}
+
+.container {
+    max-width: 80%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-text ul {
+    display: flex;
+    
+}
